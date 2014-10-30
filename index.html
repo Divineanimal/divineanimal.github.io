@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="KPIntroSiteforGA.css">
+	<title>About Katherine Policy</title>
+  <script>
+    window.onload = function() {
+      image_urls = ["http://i.imgur.com/0b7ot4y.jpg?2",
+                    "http://i.imgur.com/fC9maQe.jpg?2",
+                    "http://i.imgur.com/7GhtM1N.png"];
+      document.getElementById("slideshow").src = image_urls[0];
+
+      position = 1;
+      setInterval(function(){
+        document.getElementById("slideshow").src = image_urls[position];
+        position++;
+        if (position > 2) {position = 0;}
+      },3000);
+    }
+  </script>
+</head>
+<body>
+  <div class="lotus">
+   <figure><a href="http://imgur.com/3K4uVLD"><img src="http://i.imgur.com/3K4uVLD.jpg?2" alt="Lotus at a friend's pond." id=lotus title="A Friend's Lotus" align="right"/></a><figcaption class="lotuscap"> <i>             A lotus from a friend's pond.</i></figcaption><figure>
+   </div>
+  <div class="summary">
+  <article>
+    <h3>Katherine Policy in a nutshell.</h3>
+    <p>I have been interested in programming since I was around ten - I discovered that I could program my computer to play the Star Wars theme and was hooked. I went on to get a BA Music magna cum laude from NYU's Music Business program, have helped people build websites while working on some for my own projects, and am now working on a Master's in Accounting. I will consult in development for finance and accounting while running an arts organization.</p>
+    <p>I am also a permaculturalist, entrepreneur, like to cook, and give talks on sustainable finance and business development.</p>
+  </article>
+</div>
+<div class="selfiecats">
+   <img a href="http://imgur.com/7CgSkvS"><img src="http://i.imgur.com/7CgSkvS.jpg?1" id=selfie alt="Narcissism?" title="Narcissism?" align="absolute"/></a></img>
+  <img id="slideshow" height="100px" width="100px">
+    <h2><i>Me with my henchmen.</i></h2>
+</div>
+
+  <div class="contact">
+  <article>
+    <h3>Get in touch!</h3>
+    <p>Email: katherine.policy@gmail.com.</p>
+    <p>Blog:<a href="http://youareloveblog.wordpress.com">You Are Love Blog</a></p><p>Need a bookkeeper? I hear she's pretty good!<a href="http://www.goodhelpservices.com">Good Help</a></p>
+  </div>
+  </article>
+  <figure class="figure">
+  <img src="http://i.imgur.com/74GE3un.jpg?2" alt="Homemade Kim Chi">
+  <img src="http://i.imgur.com/fHAWjd9.jpg" alt="Local Daikon">
+  <img src="http://i.imgur.com/eToQLkj.jpg" alt="Shoyu Onion Pickles">
+  <figcaption><i>Experiments in homemade pickles. Kimchi, the gorgeous local daikon for the kim chi, and some shoyu onion pickles.</i></figcaption>
+</figure>
+</body>
